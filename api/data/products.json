@@ -1,0 +1,341 @@
+[
+  {
+    "id": "47f60e2b-9525-4c5d-a489-81bc109b3523",
+    "name": "Comfort Sandals",
+    "description": "Engineered for comfort without compromising style. Features cushioned insoles and durable outsoles.",
+    "price": 200,
+    "category": "Shoes",
+    "imageUrl": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?q=80&w=1000",
+    "inStock": true,
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "10",
+      "9",
+      "12",
+      "11"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": "0c70267f-e7af-4b69-bef4-450638ccb71c",
+    "name": "Urban Sneakers",
+    "description": "Combines classic design with modern comfort technology. Perfect for all-day wear.",
+    "price": 36.17,
+    "category": "Shoes",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000",
+    "sizes": [
+      "10",
+      "12",
+      "9",
+      "8"
+    ],
+    "inStock": false,
+    "rating": 3.8
+  },
+  {
+    "id": "00fbaf12-7b64-4b15-8ebe-b60bd862f62d",
+    "name": "Stylish Boots",
+    "description": "Engineered for comfort without compromising style. Features cushioned insoles and durable outsoles.",
+    "price": 144.54,
+    "category": "Shoes",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000",
+    "sizes": [
+      "11",
+      "8",
+      "6",
+      "12"
+    ],
+    "inStock": true,
+    "rating": 2.9
+  },
+  {
+    "id": "5a351575-fbd6-4acc-8c91-0ab2b29fb525",
+    "name": "Essential Solid",
+    "description": "Made from premium cotton for breathability and comfort. Perfect for casual outings or layering under jackets.",
+    "price": 20.8,
+    "category": "T-Shirts",
+    "imageUrl": "https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=1000",
+    "sizes": [
+      "L",
+      "M",
+      "S",
+      "XL",
+      "XS"
+    ],
+    "inStock": true,
+    "rating": 4.9
+  },
+  {
+    "id": "60303887-2a7c-4bd6-9820-19d219e52dfa",
+    "name": "Urban Parka",
+    "description": "Weather-resistant and fashionable, this jacket provides protection while elevating your style.",
+    "price": 35.78,
+    "category": "Jackets",
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1000",
+    "sizes": [
+      "XS",
+      "M",
+      "S",
+      "2XL",
+      "L",
+      "XL"
+    ],
+    "inStock": true,
+    "rating": 3.9
+  },
+  {
+    "id": "27b5f5e3-c71e-4fa9-b889-05516efd1aa2",
+    "name": "Urban Denim",
+    "description": "Designed to keep you warm and stylish. Features a durable outer shell and comfortable lining.",
+    "price": 137.07,
+    "category": "Jackets",
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1000",
+    "sizes": [
+      "2XL",
+      "XS",
+      "S",
+      "L",
+      "XL",
+      "M"
+    ],
+    "inStock": true,
+    "rating": 4.5
+  },
+  {
+    "id": "dc2635b1-9c19-46eb-b135-de4e36efe370",
+    "name": "Slim-fit Pocket",
+    "description": "Soft, breathable fabric that feels great against your skin. Features a classic design that pairs with anything.",
+    "price": 34.22,
+    "category": "T-Shirts",
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000",
+    "sizes": [
+      "2XL",
+      "XL",
+      "L",
+      "M",
+      "S",
+      "XS"
+    ],
+    "inStock": true,
+    "rating": 3
+  },
+  {
+    "id": "4e653daf-d7f6-436b-8b0d-6553485fca8a",
+    "name": "Vintage Slip",
+    "description": "Crafted from quality materials with attention to detail. Perfect for special occasions or everyday wear.",
+    "price": 182.2,
+    "category": "Dresses",
+    "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=1000",
+    "sizes": [
+      "L",
+      "XS",
+      "M",
+      "S",
+      "2XL"
+    ],
+    "inStock": true,
+    "rating": 4.8
+  },
+  {
+    "id": "793f4b10-35bf-4dc7-aabe-76e8bdc5957c",
+    "name": "Premium Running Shoes",
+    "description": "Handcrafted with attention to detail. Designed to provide support while elevating your outfit.",
+    "price": 39.2,
+    "category": "Shoes",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000",
+    "sizes": [
+      "12",
+      "10",
+      "6"
+    ],
+    "inStock": false,
+    "rating": 3.4
+  },
+  {
+    "id": "74f00ee9-f485-4b65-9d27-df36c9c18a98",
+    "name": "Autumn Blazer",
+    "description": "Designed to keep you warm and stylish. Features a durable outer shell and comfortable lining.",
+    "price": 71.65,
+    "category": "Jackets",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000",
+    "sizes": [
+      "M",
+      "L",
+      "2XL",
+      "S"
+    ],
+    "inStock": true,
+    "rating": 2.9
+  },
+  {
+    "id": "0b2622e3-09f9-4e63-be29-30d85664d77b",
+    "name": "Stylish Blazer",
+    "description": "Designed to keep you warm and stylish. Features a durable outer shell and comfortable lining.",
+    "price": 100.66,
+    "category": "Jackets",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000",
+    "sizes": [
+      "XS",
+      "S",
+      "XL",
+      "M",
+      "2XL"
+    ],
+    "inStock": true,
+    "rating": 5
+  },
+  {
+    "id": "ac009dbe-5165-490e-b134-913bb4fb654c",
+    "name": "Winter Blazer",
+    "description": "The perfect balance of function and fashion. Keeps you comfortable in changing conditions.",
+    "price": 159.2,
+    "category": "Jackets",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000",
+    "sizes": [
+      "XS",
+      "S",
+      "2XL",
+      "M",
+      "L",
+      "XL"
+    ],
+    "inStock": false,
+    "rating": 4.6
+  },
+  {
+    "id": "9c198a7e-a834-43c8-bd62-e9e2a1235f3f",
+    "name": "Floral Maxi",
+    "description": "A versatile piece that can be dressed up or down. Features a timeless design and comfortable fit.",
+    "price": 162.5,
+    "category": "Dresses",
+    "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1000",
+    "sizes": [
+      "XS",
+      "M",
+      "S"
+    ],
+    "inStock": false,
+    "rating": 4.6
+  },
+  {
+    "id": "c33a2dc5-2835-41b8-9923-1dc1446306dd",
+    "name": "Casual Joggers",
+    "description": "Made with quality fabric that maintains its shape. Features practical pockets and a comfortable waistband.",
+    "price": 47.34,
+    "category": "Pants",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1000",
+    "inStock": false,
+    "sizes": [
+      "S",
+      "L",
+      "XL",
+      "XS",
+      "M"
+    ],
+    "rating": 2.8
+  },
+  {
+    "id": "e13fc96e-4f3d-471c-b071-f836aa2acb06",
+    "name": "Modern Slip-ons",
+    "description": "Handcrafted with attention to detail. Designed to provide support while elevating your outfit.",
+    "price": 152.82,
+    "category": "Shoes",
+    "imageUrl": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=1000",
+    "sizes": [
+      "10",
+      "9",
+      "11",
+      "8",
+      "7",
+      "12"
+    ],
+    "inStock": true,
+    "rating": 4.8
+  },
+  {
+    "id": "9160747b-52d8-49c3-8f78-57b5df075ec7",
+    "name": "Vintage Windbreaker",
+    "description": "The perfect balance of function and fashion. Keeps you comfortable in changing conditions.",
+    "price": 185.13,
+    "category": "Jackets",
+    "imageUrl": "https://images.unsplash.com/photo-1548126032-079a0fb0099d?q=80&w=1000",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "inStock": true,
+    "rating": 2.5
+  },
+  {
+    "id": "01ea56c8-52c6-4eb7-ae37-1768fb01cf0c",
+    "name": "Classic Leather",
+    "description": "Designed to keep you warm and stylish. Features a durable outer shell and comfortable lining.",
+    "price": 120.96,
+    "category": "Jackets",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000",
+    "sizes": [
+      "M",
+      "S",
+      "L",
+      "XS"
+    ],
+    "inStock": true,
+    "rating": 2.2
+  },
+  {
+    "id": "2d21386e-2987-4e68-8810-e8709a79f39e",
+    "name": "Basic Solid",
+    "description": "Made from premium cotton for breathability and comfort. Perfect for casual outings or layering under jackets.",
+    "price": 30.99,
+    "category": "T-Shirts",
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000",
+    "sizes": [
+      "S",
+      "XL",
+      "2XL",
+      "XS"
+    ],
+    "inStock": true,
+    "rating": 4.5
+  },
+  {
+    "id": "a7c49a7e-57a5-411c-b6fb-6498c85f49cd",
+    "name": "Classic Sweatpants",
+    "description": "Made with quality fabric that maintains its shape. Features practical pockets and a comfortable waistband.",
+    "price": 199.19,
+    "category": "Pants",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=1000",
+    "sizes": [
+      "XL",
+      "S",
+      "L",
+      "XS",
+      "2XL",
+      "M"
+    ],
+    "inStock": false,
+    "rating": 2.3
+  },
+  {
+    "id": "abb8fde4-473f-4a41-90ba-03710dfa1b87",
+    "name": "Chic Wrap",
+    "description": "Crafted from quality materials with attention to detail. Perfect for special occasions or everyday wear.",
+    "price": 116.24,
+    "category": "Dresses",
+    "imageUrl": "https://images.unsplash.com/photo-1612336307429-8a898d10e223?q=80&w=1000",
+    "sizes": [
+      "L",
+      "S",
+      "XL",
+      "XS"
+    ],
+    "inStock": false,
+    "rating": 2.9
+  }
+]
