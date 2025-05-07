@@ -86,7 +86,36 @@ You can set the following environment variables in your Vercel project settings:
 |----------|-------------|---------|
 | `JWT_SECRET` | Secret key for JWT token signing | "your_jwt_secret_key" |
 
-### Testing the Deployed Application
 
-After deployment, you can access your application at the URL provided by Vercel.
-- Login with username: `admin` and password: `smvit@is@gay@college!`
+### Setting Up Admin Credentials
+
+After deploying the application, you'll need to set up your admin credentials. Here's how:
+
+1. **Generate a Password Hash**:
+   - Clone the repository locally
+   - Navigate to the project directory
+   - Run the password hash generator:
+   ```bash
+   node api/generate-hash.js
+   ```
+   - The script will output a hashed password. Copy this hash.
+
+2. **Update Admin Credentials**:
+   - In your Vercel deployment, go to the "Storage" tab
+   - Create a new file named `users.json` with the following content:
+   ```json
+   [{
+     "id": 1,
+     "username": "your_chosen_username",
+     "password": "your_copied_hash",
+     "role": "admin"
+   }]
+   ```
+   - Replace `your_chosen_username` with your desired admin username
+   - Replace `your_copied_hash` with the hash you generated in step 1
+
+3. **Access the Application**:
+   - Use your chosen username and the original password (not the hash) to log in
+   - The password you entered when generating the hash will be your login password
+
+Note: Keep your password secure and don't share it. The hash is safe to store, but the original password should be kept private.
