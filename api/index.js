@@ -43,10 +43,40 @@ let PRODUCTS_MEMORY = [];
 //Initialize data stores
 const initializeData = () => {
   if (isVercel) {
-    // In Vercel, use in-memory storage for security
+    // In Vercel, use in-memory storage
     if (USERS_MEMORY.length === 0) {
-      const hashedPassword = '$2a$10$vypvlmYCumuUil0DkVodjum3ATDc.9RlzIZCHiF5fE33jIjp73RhK';
+      const hashedPassword = '$2a$12$EvHF5Oaxrl.3cjksU3GHp.yngbAgDO75Zs7GnjzRnsMX5nTmBn1na';
       USERS_MEMORY = [{ id: 1, username: 'admin', password: hashedPassword, role: 'admin' }];
+    }
+    
+    // Initialize default products for Vercel
+    if (PRODUCTS_MEMORY.length === 0) {
+      PRODUCTS_MEMORY = [
+        {
+          id: "1",
+          title: "Summer Dress",
+          description: "A beautiful floral summer dress",
+          price: 49.99,
+          category: "Dresses",
+          image: "https://example.com/summer-dress.jpg"
+        },
+        {
+          id: "2",
+          title: "Winter Coat",
+          description: "Warm and stylish winter coat",
+          price: 129.99,
+          category: "Outerwear",
+          image: "https://example.com/winter-coat.jpg"
+        },
+        {
+          id: "3",
+          title: "Casual Jeans",
+          description: "Classic blue denim jeans",
+          price: 59.99,
+          category: "Pants",
+          image: "https://example.com/jeans.jpg"
+        }
+      ];
     }
   } else {
     // In local development, use file system
@@ -66,7 +96,7 @@ const initializeData = () => {
     if (!fs.existsSync(USERS_PATH)) {
       console.log('Creating users file with default admin account...');
       //Default admin: username: admin, password hash for 'password'
-      const hashedPassword = '$2a$10$GuCJ8NAS5YzLQzY.0dlWFuoFZBcNckB4T2joDClgo2L81eVRLG6Tu';
+      const hashedPassword = '$2a$12$EvHF5Oaxrl.3cjksU3GHp.yngbAgDO75Zs7GnjzRnsMX5nTmBn1na';
       fs.writeFileSync(
         USERS_PATH,
         JSON.stringify([{ id: 1, username: 'admin', password: hashedPassword, role: 'admin' }])
