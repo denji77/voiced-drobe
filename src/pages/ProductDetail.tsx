@@ -32,7 +32,10 @@ const ProductDetail = () => {
         const backendProduct = await fetchProductById(id);
         
         if (backendProduct) {
-          setProduct(backendProduct);
+          setProduct({
+            ...backendProduct,
+            sizes: backendProduct.sizes || [], // Ensure sizes is always an array
+          });
           // Set first available size as default if product is in stock
           if (backendProduct.inStock && backendProduct.sizes.length > 0) {
             setSelectedSize(backendProduct.sizes[0]);
@@ -116,6 +119,8 @@ const ProductDetail = () => {
     );
   }
 
+  console.log(product); //For debug.
+
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       <Header 
@@ -185,7 +190,7 @@ const ProductDetail = () => {
                 disabled={!product.inStock}
                 className="grid grid-cols-4 sm:grid-cols-6 gap-2"
               >
-                {product.sizes.map((size: string, index: number) => (
+                {product.sizes?.map((size: string, index: number) => (
                   <div key={size} className="flex items-center" style={{ animationDelay: `${index * 50}ms` }}>
                     <RadioGroupItem
                       value={size}
